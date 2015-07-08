@@ -13,11 +13,11 @@
 \n
 3. 显示该书的详细介绍。</string>
     <string name="main_scan">扫描ISBN</string>
-    
     <string name="error_message_default">错误详情暂无</string>
     <string name="error_message_net_exception">网络异常</string>
     <string name="error_message_book_not_found">图书不存在</string>
-    
     <string name="book_detail_summary_title">内容介绍</string>
+    <string name="title_activity_book_info_detail">BookInfoDetailActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

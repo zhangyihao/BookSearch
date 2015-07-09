@@ -49,46 +49,46 @@ public class BookInfo implements Parcelable {
 		dest.writeString(mSummary);
 	}
 	
-	public String getmTitle() {
+	public String getTitle() {
 		return mTitle;
 	}
-	public void setmTitle(String mTitle) {
+	public void setTitle(String mTitle) {
 		this.mTitle = mTitle;
 	}
-	public Bitmap getmCover() {
+	public Bitmap getCover() {
 		return mCover;
 	}
-	public void setmCover(Bitmap mCover) {
+	public void setCover(Bitmap mCover) {
 		this.mCover = mCover;
 	}
-	public String getmAuthor() {
+	public String getAuthor() {
 		return mAuthor;
 	}
-	public void setmAuthor(String mAuthor) {
+	public void setAuthor(String mAuthor) {
 		this.mAuthor = mAuthor;
 	}
-	public String getmPublisher() {
+	public String getPublisher() {
 		return mPublisher;
 	}
-	public void setmPublisher(String mPublisher) {
+	public void setPublisher(String mPublisher) {
 		this.mPublisher = mPublisher;
 	}
-	public String getmPublishDate() {
+	public String getPublishDate() {
 		return mPublishDate;
 	}
-	public void setmPublishDate(String mPublishDate) {
+	public void setPublishDate(String mPublishDate) {
 		this.mPublishDate = mPublishDate;
 	}
-	public String getmISBN() {
+	public String getISBN() {
 		return mISBN;
 	}
-	public void setmISBN(String mISBN) {
+	public void setISBN(String mISBN) {
 		this.mISBN = mISBN;
 	}
-	public String getmSummary() {
+	public String getSummary() {
 		return mSummary;
 	}
-	public void setmSummary(String mSummary) {
+	public void setSummary(String mSummary) {
 		this.mSummary = mSummary;
 	}
 }
